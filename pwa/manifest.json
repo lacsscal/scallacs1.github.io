@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "Scallacs's Blog",
+  "short_name": "SC Blog",
+  "description": "About a giant of words, the dwarf of action.",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
