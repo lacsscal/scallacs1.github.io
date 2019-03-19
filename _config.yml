@@ -1,22 +1,22 @@
-# Site settings
-title: ScaLLacSSSS Blog
-SEOTitle: SCsss的博客 | Hux Blog
-header-img: img/home-bg-hill.jpg
-email: 1175129781@qq.com
-description: "，。"
-keyword: "scaaa SACsasss Beriallll acssssssssss"
-url: "https://scallacs1.github.io"              # your host, for absolute URL
+﻿# Site settings
+title: Scallacs's Blog
+SEOTitle: S.C的博客 | scallacs's Blog
+header-img: img/hellos.jpg
+email: 76403695@qq.com
+description: "We're all mad here"
+keyword: "scallacs is a mad noob"
+url: "https://github.com/scallacs1/scallacs1.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
-#facebook_username:  huxpro
+#weibo_username:     s.cpro
+#zhihu_username:     vergilius-lacs
+github_username:    scallacs1
+#twitter_username:   s.cpro
+#facebook_username:  s.cpro
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -67,8 +67,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "写写代码，发发神经，<br>We're all mad here & I am the noob"
+sidebar-avatar: /img/me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -89,35 +89,5 @@ friends: [
     {
     #     title: "Su",
     #     href: "http://su.gallery/"
-    # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
-    }
+    # }
 ]
