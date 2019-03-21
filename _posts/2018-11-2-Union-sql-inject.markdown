@@ -1,1 +1,0 @@
-﻿---layout:     posttitle:      "Union-sql-inject"subtitle:   " \"I'm turly a noob\""date:       2018-11-2 15:15：00author:     "S.C"header-img: "img/blank.jpg"catalog: truetags:    - 信安---#union 联合查询注入##学习过程参照《Web 安全攻防》---以下为部分学习中的 困惑和心得（未仔细整理，稍见凌乱） 使用**sql-lab**作为学习事件环境（在环境搭建过程中掉了不少坑（是我太菜））
