@@ -14,11 +14,14 @@ MATLAB -- MATrix LABoratory(矩阵实验室)
 **设置当前文件夹**：**cd x:\work**
 **工作区**：存储运行时变量
 **搜索路径**：
+
 	>变量
 	>>内部函数
 	>>>程序文件
 	>>>>当前文件夹下的程序文件
 	>文件搜索路径文件夹中的程序文件
+
+
 变量名优先
 **设置文件搜索路径**:**>>path(path,'e:\work')**
 
@@ -31,25 +34,28 @@ MATLAB -- MATrix LABoratory(矩阵实验室)
 类型转换函数
 class()函数查看数据类型
 real()
+
+
 imag()函数求实部虚部
 	>>format 格式符 设置数据输出格式
 	>>>format rat-->转化为分数;format long -->长整型
 	>>whos 查看当前变量属性（详细）
 
-**The keywords**
-	>>iskeyword
-	返回matlab的预定义关键字
-**inf**表示无限大
-	>> x = 1/0
-	返回inf
-**NaN**(not a number)
-	>> x = inf/inf
-	返回NaN
-**指令末尾加分号**
-	>> a = 10;
-	效果为不显示 ans结果(matlab 不执行回显)
-**清屏**
-	>>clc
+
+	**The keywords**
+		>>iskeyword
+		返回matlab的预定义关键字
+	**inf**表示无限大
+		>> x = 1/0
+		返回inf
+	**NaN**(not a number)
+		>> x = inf/inf
+		返回NaN
+	**指令末尾加分号**
+		>> a = 10;
+		效果为不显示 ans结果(matlab 不执行回显)
+	**清屏**
+		>>clc
 ### 函数应用 ###
 
 **abs()**:求实数的绝对值，复数的摸，字符串的ASCII码
