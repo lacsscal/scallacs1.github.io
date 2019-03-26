@@ -42,19 +42,19 @@ imag()函数求实部虚部
 	>>whos 查看当前变量属性（详细）
 
 
-**The keywords**
+	**The keywords**
 		>>iskeyword
 		返回matlab的预定义关键字
-**inf**表示无限大
+	**inf**表示无限大
 		>> x = 1/0
 		返回inf
-**NaN**(not a number)
+	**NaN**(not a number)
 		>> x = inf/inf
 		返回NaN
-**指令末尾加分号**
+	**指令末尾加分号**
 		>> a = 10;
 		效果为不显示 ans结果(matlab 不执行回显)
-**清屏**
+	**清屏**
 		>>clc
 ### 函数应用 ###
 
