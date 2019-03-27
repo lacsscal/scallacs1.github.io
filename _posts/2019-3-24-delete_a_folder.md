@@ -5,13 +5,13 @@
 最后只能手动清理了。
 ## 正文 ##
 样图如下
-![avatar](https://github.com/scallacs1/scallacs1.github.io/tree/master/img/delete_folder/the_bad_exe.PNG)
+![](./img/delete_folder/the_bad_exe.PNG)
 在其他应用中打开，那只能在kill该应用的进程后再删除文件了。
 任务管理器里的服务排的密密麻麻，看的我头皮发麻。
-![avatar](https://github.com/scallacs1/scallacs1.github.io/tree/master/img/delete_folder/jincheng.PNG)
+![](./img/delete_folder/jincheng.PNG)
 换个方式解决。打开**cmd**输入命令：**tasklist**列出进行中的进程清单。可以把该清单转成一个txt文档便于查找相关信息。**tasklist >e:/list.txt**即可在E盘生成一个文档包含所有进程信息
 然后。按照相关的PID结束进程
-![avatar](https://github.com/scallacs1/scallacs1.github.io/tree/master/img/delete_folder/notlill.PNG)
+![](./img/delete_folder/notlill.PNG)
 因为关联问题，还干不掉它。是个多进程守护型！！！
 按Error返回的PID号查询了相关应用名，发现其中六个PID对应了同样的应用名。
 
