@@ -53,7 +53,8 @@
 2、不同的挂载点按其特性分配不同的文件系统（/var用reiserfs;/home用xfs;/用ext4）
 
 3、减少搜索范围，提高效率
+
 .............etc.............
 
 目录配置方案
-![](/img/linux_00.tree_direct.jpg)
+![](/img/linux_00/tree_direc.jpg)
