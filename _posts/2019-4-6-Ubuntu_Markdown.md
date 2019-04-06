@@ -20,7 +20,7 @@
  默认安装在/.vim/bundle/vundle目录下。
 安装好后即可通过 vim 编辑 ~/.vimrc  文件来配置想要的插件。
 
-![修改配置信息](./img/markdown/vundle.png)
+![修改配置信息](/img/markdown/vundle.png)
 如图配置想要的插件，将其地址写在 vundle#begin和vundle#end之间。
 打开一个vim ,命令模式输入:PluhinInstall,即可完成插件的安装。
 当然，如果想要删除插件的话，在.vimrc文件的相关行删除该插件，并且打开vim使用命令:BundleClean即可。
@@ -68,7 +68,7 @@
 即可完成实时预览插件的安装。
 
 ### 问题来了
-完成安装后实际并没有浏览器窗口弹出，貌似有哪里出了问题，一一排查安装步骤后，在检查到 " instant-markdown-d "的时候，发现有一个报错被忽略了，键入 instant-markdown-d,会回显 ![](./img/markdown/instant_markdown.png)
+完成安装后实际并没有浏览器窗口弹出，貌似有哪里出了问题，一一排查安装步骤后，在检查到 " instant-markdown-d "的时候，发现有一个报错被忽略了，键入 instant-markdown-d,会回显 ![](/img/markdown/instant_markdown.png)
 
 查询相关资料后，发现，原因是node.js的版本过低
 
