@@ -45,7 +45,7 @@
 
       ./install.py --clang-completer（后面的参数是为了支持C的编译环境）
 
-**这时候出了点问题**，如图：![](./img/python_env/complete_error.png)
+**这时候出了点问题**，如图：![](../img/python_env/complete_error.png)
 
 说是 Could Not Find PythonLibs 找到了python2.7.6的库环境，按照它的提示，我以为是Python的版本问题，此后，再次执行了
   
