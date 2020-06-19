@@ -89,3 +89,66 @@ sql:structured query language 结构化查询语言
 5. 事务控制语句  commit rollback savepoint
 
 SQL关键字不区分大小写
+
+DDL操作数据库对象 DML操作数据表里的数据：增删改查
+
+DML由insert into ；update； delete from；三个命令组成
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##DBMS
+严格来讲 数据库只是存放数据的地方，
+而在用户访问操作这些数据的时候 需要用到数据库管理系统Database Management System(DBMS)
+DBMS 负责管理数据的存储，安全，一致性，并发，恢复和访问等
+
+现今使用的数据库基本是关系型数据库
+以数据表为基本数据存储单元
+数据表作为存储数据的逻辑单元(想像为行列表格[行作为记录， 列作为字段])
+是以数据库建表时必须指明字段数(列数)
+并且为每张数据表指明主键列(用以唯一标识此行的记录)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##SQL与JDBC
+1. JAVA提供待实现的JDBC对数据库的访问API
+2. 数据库厂商提供数据库的相关驱动
+3. 由JDBC驱动转换，使得相同的JDBC API操作不同的数据库
+4. 由JDBC完成以下操作
+	1. 建立与数据库的连接
+	2. 执行SQL语句
+	3. 获得SQL语句的执行结构
+
+	
+[注]ODBC Open DataBase Connectivity:开放数据库连接 JDBC仿ODBC | JDBC API 只是执行SQL语句的工具
+
